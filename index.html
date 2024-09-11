@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fronted Online Center</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="images/icon.png" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a
+          href="#"
+          class="navbar-brand"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#myOffCanvas"
+          >Fronted Online Center</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          id="navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Show Case -->
+    <section class="bg-dark text-light p-5 text-center pt-lg-5 text-sm-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 align-items-center justify-content-between">
+            <h1>Become a <span class="text-warning">Web Devloper</span></h1>
+            <p class="lead my-4">
+              Web development refers to the process of building and maintaining
+              websites.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal"
+            >
+              Start Enrollment
+            </button>
+          </div>
+          <div class="col-6">
+            <img
+              src="images/306-3064446_developer-developer-png.png"
+              alt=""
+              class="img-fluid w-100 d-none d-sm-block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NewsLetter -->
+    <section class="bg-primary text-light p-5 m-md-2 m-sm-3">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign up for our news</h3>
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Enter Email" />
+            <button class="btn btn-dark btn-lg" type="button">
+              <a href="loginPage.html">Button</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Boxes -->
+    <section class="p-1">
+      <div class="container">
+        <h3 class="text-secondary mb-2">New Posts</h3>
+        <div class="row text-center g-4">
+          <div class="col-md col-lg-3 col-md-6 col-12">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi-laptop"></i></div>
+                <h3 class="card-title mb-3">Virtual</h3>
+                <p class="card-text">
+                  Virtual reality (VR) is a technology that creates a simulated
+                  environment, allowing users to interact with 3D worlds. It
+                  uses devices like headsets and gloves to provide immersive
+                  experiences for gaming, training, and education.
+                </p>
+                <a
+                  href="https://en.wikipedia.org/wiki/Virtual_reality"
+                  class="btn btn-primary"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-lg-3 col-md-6 col-12">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi-person-square"></i></div>
+                <h3 class="card-title mb-3">Hypbrid</h3>
+                <p class="card-text">
+                  Hybrid systems can refer to a combination of different
+                  technologies or systems to achieve specific goals. Common
+                  examples include: Definition: Vehicles that use both an
+                  internal combustion engine and an electric motor.
+                </p>
+                <a
+                  href="https://en.wikipedia.org/wiki/Hybrid"
+                  class="btn btn-dark"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md col-lg-3 col-md-6 col-12">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi-people"></i></div>
+                <h3 class="card-title mb-3">In Person</h3>
+                <p class="card-text">
+                  A developer is a professional who creates software
+                  applications or systems. They write, test, and maintain code
+                  using various programming languages. Developers often
+                  collaborate in teams to solve complex problems .
+                </p>
+                <a
+                  href="https://en.wikipedia.org/wiki/Software_development#Workers"
+                  class="btn btn-primary"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-lg-3 col-md-6 col-12">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi-person-square"></i></div>
+                <h3 class="card-title mb-3">Hypbrid</h3>
+                <p class="card-text">
+                  Hybrid systems can refer to a combination of different
+                  technologies or systems to achieve specific goals. Common
+                  examples include: Definition: Vehicles that use both an
+                  internal combustion engine and an electric motor.
+                </p>
+                <a
+                  href="https://en.wikipedia.org/wiki/Hybrid"
+                  class="btn btn-dark"
+                  >Read More...</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5" id="learn">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="images/istockphoto-1183078489-612x612.jpg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>Learn The Fundentmentals of Development</h2>
+            <p class="lead">What is Web Development?</p>
+            <p>
+              Web development refers to the process of building and maintaining
+              websites. It encompasses a variety of tasks that ensure a website
+              looks great, functions well, and provides a seamless user
+              experience. This includes both the front-end (what users see and
+              interact with) and the back-end (the server-side processes that
+              manage data and application logic) . The web development process
+              typically involves several phases, including planning, designing,
+              testing, and launching a website. Developers often work in teams,
+              each specializing in different aspects of the project .
+            </p>
+            <a
+              href="https://thirdweb.com/?utm_source=google&utm_medium=ad&gad_source=1&gclid=EAIaIQobChMIg76igKOriAMVlKloCR1l9QiLEAAYASAAEgLdBPD_BwE"
+              class="btn btn-light mt-3"
+            >
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- html learning copy -->
+    <section id="learn" class="p-5 bg-dark text-bg-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2 class="text-warning">Learn Html</h2>
+            <p class="lead, para_color">
+              <strong
+                >Introduction to HTML HTML (HyperText Markup Language) is the
+                standard markup language used to create and structure content on
+                the web.</strong
+              >
+            </p>
+            <p class="lead, para_color">
+              Structure of HTML HTML documents are structured using a series of
+              elements and tags. Each element is defined by a tag, which is
+              enclosed in angle brackets, such as
+            </p>
+
+            <p class="para_color">
+              for a paragraph or <img /> for an image. These tags can contain
+              attributes that provide additional information about the element
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+          <div class="col-md">
+            <img src="images/html.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tabs  -->
+    <div class="custom-tabs py-5">
+      <div class="container">
+        <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#home"
+              type="button"
+              role="tab"
+              aria-controls="home"
+              aria-selected="true"
+            >
+              Home
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#profile"
+              type="button"
+              role="tab"
+              aria-controls="profile"
+              aria-selected="false"
+            >
+              Profile
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#contact"
+              type="button"
+              role="tab"
+              aria-controls="contact"
+              aria-selected="false"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="home"
+            role="tablist"
+            aria-labelledby="home-tab"
+          >
+            <p class="p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              veniam enim impedit, numquam hic inventore neque corrupti, vitae
+              eius incidunt porro aperiam ut quis? Culpa, libero. Laboriosam
+              corporis suscipit rerum porro consequuntur non incidunt sunt quae?
+              Velit culpa dolorem sapiente.
+            </p>
+            <button class="btn btn-success">Obtain</button>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="profile"
+            role="tabpanel"
+            aria-label="profile-tab"
+          >
+            <p class="p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              veniam enim impedit, numquam hic inventore neque corrupti, vitae
+              eius incidunt porro aperiam ut quis? Culpa, libero. Laboriosam
+              corporis suscipit rerum porro consequuntur non incidunt sunt quae?
+              Velit culpa dolorem sapiente.
+            </p>
+            <button class="btn btn-success">Obtain</button>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="contact"
+            role="tabpanel"
+            aria-label="contact-tab"
+          >
+            <p class="p-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              veniam enim impedit, numquam hic inventore neque corrupti, vitae
+              eius incidunt porro aperiam ut quis? Culpa, libero. Laboriosam
+              corporis suscipit rerum porro consequuntur non incidunt sunt quae?
+              Velit culpa dolorem sapiente.
+            </p>
+            <button class="btn btn-success">Obtain</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Question Accordion -->
+    <section id="Questions" class="p-5 text-center">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion text-dark" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Where exactly are you located?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What do I need to know about it?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Do you help me to find a career ?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Instructuros -->
+    <section id="Instructors" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Our Instructors</h2>
+        <p class="lead text-center text-warning mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          fugiat molestiae possimus nihil debitis .
+        </p>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/te1.jpg"
+                  alt=""
+                  class="rounded-circle mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Ali karimi</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis inventore quia, obcaecati tempore magnam quasi?
+                </p>
+                <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/te2.jpg"
+                  alt=""
+                  class="rounded-circle mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Sara sing</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis inventore quia, obcaecati tempore magnam quasi?
+                </p>
+                <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/te3.webp"
+                  alt=""
+                  class="rounded-circle mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">Bob Alizada</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis inventore quia, obcaecati tempore magnam quasi?
+                </p>
+                <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/te4.webp"
+                  alt=""
+                  class="rounded-circle mb-3 img-fluid"
+                />
+                <h3 class="card-title mb-3">jamil jamali</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis inventore quia, obcaecati tempore magnam quasi?
+                </p>
+                <a href="#"> <i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"> <i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact and map -->
+    <div class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6">
+            <h2 class="text-center mb-2">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> 14 Istaqlal st
+                Guzara Herat
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone Number:</span>_+93 728 958 423
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Student Phone:</span> +93 771 634 406
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">My Email:</span>
+                rafiahmadkhatibi@gmail.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Satara Email:</span>
+                sataramiramiri@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <div id="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6586.511274558809!2d62.21110612146409!3d34.36941786324787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f3ce68b9f4d4fd5%3A0x61642a4a1b93ef30!2z2K_Yp9mG2LTar9in2Ycg2YfYsdin2Ko!5e0!3m2!1sfa!2s!4v1724744169158!5m2!1sfa!2s"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="p-3 bg-dark text-center text-white position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2024 frontend Bootcamp</p>
+        <a href="" class="position-absolute bottom-0 -end-0 p-3"> </a>
+        <i class="bi bi-arrow-up-circle h1"> </i>
+      </div>
+    </footer>
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="exmapleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exmapleModalLabel">New Modal</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.!
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="courses"
+                  ><h4 class="lead">Choose your course:</h4></label
+                >
+                <select id="courses" name="courses">
+                  <option value="volvo">HTML-5</option>
+                  <option value="saab">CSS</option>
+                  <option value="fiat">PRIMARY JAVA SCRIPT</option>
+                  <option value="fiat">ADVANCEDJAVA SCRIPT</option>
+                  <option value="audi">JQUERY</option>
+                  <option value="audi">React</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control form-control-lg"
+                  id="message"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">
+                Submit
+              </button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- offcanvas -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="myOffCanvas"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="myOffCanvas">What's Webdevleopment?</h5>
+        <button
+          type="button"
+          class="btn btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>
+          Web development refers to the process of building and maintaining
+          websites. It encompasses a variety of tasks that ensure a website
+          looks great, functions well, and provides a seamless user experience.
+          This includes both the front-end (what users see and interact with)
+          and the back-end (the server-side processes that manage data and
+          application logic).
+        </p>
+        <img
+          class="img-fluid"
+          src="images/web.jpg"
+          alt="A Person that work with computer"
+        />
+        <a href=""><button class="btn btn-success">Read More ...</button></a>
+      </div>
+    </div>
+    <!-- Script link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
